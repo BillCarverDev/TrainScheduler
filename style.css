@@ -1,0 +1,32 @@
+
+
+ .clip-text {
+    /* font-family: Impact, Charcoal, sans-serif; */
+    /* background: url(images/train_image_for_text.jpg); */
+    font-size: 111px;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    /* display: inline-block; */
+    margin: .25em;
+    padding: .5em .75em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+body{
+    /* This image will be displayed fullscreen */
+    /* background:url('background.jpg') no-repeat center center; */
+    background: url(images/swisstrain.jpg) no-repeat center center;
+
+    /* Ensure the html element always takes up the full height of the browser window */
+    min-height:100%;
+
+    /* The Magic */
+    background-size:cover;
+}
